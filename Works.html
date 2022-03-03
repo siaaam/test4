@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Helvetica;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+}
+ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>AR Design Industry</h1>
+<hr>
+
+<h2>Some of our previous works</h2>
+<p>Resize the browser window to see the responsive effect.</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="images/project 71-01.jpg" alt="turn off your data to see" style="width:100%">
+      <h3>Iron Brand Logo</h3>
+      <p>This was a resposive Brand.We design this logo according to their preferences.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/sc2-01.jpg" alt="turn off your data to see" style="width:100%">
+      <h3>Social Media Ads</h3>
+      <p>Social Media is a Powerful Media to engage with target audience.A social media ad will connect your audience to your Brand more</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/PREMIUM T-SHIRT2-01.jpg" alt="Nature" style="width:100%">
+      <h3>Amazon Product Selling Logo</h3>
+      <p>Advertising on social media creates an open service platform where customers can express their views and feelings about services and products offered.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="images/pro copy1-01.jpg" alt="Unknown" style="width:100%">
+      <h3>A beautiful Poster</h3>
+      <p>A poster has a visual design, images, and copy. It provides a message intended to promote brand awareness or call attention</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<div class="content">
+  <video width="890" height="500" controls>
+  <source src="video/vector gig.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+  <h3>Some other work of Illustrator</h3>
+  <p>There are several uses of vector tracing. This ranges from converting delicate and important raster images into vector images to enhance scalability, to actually converting bitmap or raster pictures into vectors for use as cartoons. The uses are endless, but depends largely on your needs.</p>
+  <p>Illustrations are essential for helping young children to develop their imagination and the reason why children's books need to have colorful and vivid illustrations. They also help in a association, for a child to understand words, sentences and actions</p>
+</div>
+
+<div class="content">
+  <video width="890" height="500" controls>
+  <source src="video/final Comp.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+  <h3>Some Other Work of Photoshop</h3>
+  <p>Adobe Photoshop is a critical tool for designers, web developers, graphic artists, photographers, and creative professionals. It is widely used for image editing, retouching, creating image compositions, website mockups, and adding affects.</p>
+  <p>Hair masks can help moisturize and nourish your hair. They're especially beneficial for dry, damaged, or frizzy hair. Some hair masks may even improve the health of your scalp and boost the strength of your hair</p>
+</div>
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
